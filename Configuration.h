@@ -285,7 +285,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false;
 
   #define X_PROBE_OFFSET_FROM_EXTRUDER 0.0
   #define Y_PROBE_OFFSET_FROM_EXTRUDER 0.0
-  #define Z_PROBE_OFFSET_FROM_EXTRUDER 0.5//自动调平设置 过高减小 过低增大
+  #define Z_PROBE_OFFSET_FROM_EXTRUDER 1//自动调平设置 过高减小 过低增大
 
   #define Z_RAISE_BEFORE_HOMING 4       // 配置回原点前Z轴升起的高度，该高度要确保在Z轴最大高度范围内。 
   
@@ -293,7 +293,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false;
 
   #define Z_RAISE_BEFORE_PROBING 80  ////经过第一个检测点前Z轴抬起的高度，该高度要确保调平传感器可以正常放下。
   #define Z_RAISE_BETWEEN_PROBINGS 5  //经过下一个检测点前Z轴抬起的高度
-
+  #define Z_RAISE_AFTER_PROBING 80
   #define Z_SAFE_HOMING   
   #ifdef Z_SAFE_HOMING
 
@@ -321,7 +321,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false;
 //对于三角洲结构这意味着笛卡尔打印机的顶部和中心的值。
 #define MANUAL_X_HOME_POS 0
 #define MANUAL_Y_HOME_POS 0
-#define MANUAL_Z_HOME_POS 325//311//200//306.6 // Z轴高度设置
+#define MANUAL_Z_HOME_POS 321//311//200//306.6 // Z轴高度设置
 //因每台机器安装会有差别，需自行测量，测量方法请查看配套视频教程，设置完后后记得保持修改
 
 //轴设置
