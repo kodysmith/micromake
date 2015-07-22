@@ -321,7 +321,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false;
 //对于三角洲结构这意味着笛卡尔打印机的顶部和中心的值。
 #define MANUAL_X_HOME_POS 0
 #define MANUAL_Y_HOME_POS 0
-#define MANUAL_Z_HOME_POS 325//311//200//306.6 // Z轴高度设置
+#define MANUAL_Z_HOME_POS 311//200//306.6 // Z轴高度设置
 //因每台机器安装会有差别，需自行测量，测量方法请查看配套视频教程，设置完后后记得保持修改
 
 //轴设置
