@@ -996,7 +996,7 @@ static void engage_z_probe() {
     feedrate = homing_feedrate[X_AXIS];
     destination[X_AXIS] = 35;
     destination[Y_AXIS] = 35;
-    destination[Z_AXIS] = 130;
+    destination[Z_AXIS] = 0;
     prepare_move_raw();
 
     feedrate = homing_feedrate[X_AXIS]/10;
